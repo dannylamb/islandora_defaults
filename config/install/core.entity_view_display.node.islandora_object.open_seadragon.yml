@@ -62,7 +62,6 @@ content:
       date_order: big_endian
       month_format: mm
       day_format: dd
-      season_hemisphere: north
     third_party_settings: {  }
   field_edtf_date_created:
     type: edtf_default
@@ -74,7 +73,6 @@ content:
       date_order: big_endian
       month_format: mm
       day_format: dd
-      season_hemisphere: north
     third_party_settings: {  }
   field_edtf_date_issued:
     type: edtf_default
@@ -86,7 +84,6 @@ content:
       date_order: big_endian
       month_format: mm
       day_format: dd
-      season_hemisphere: north
     third_party_settings: {  }
   field_extent:
     type: string
@@ -97,10 +94,10 @@ content:
       link_to_entity: false
     third_party_settings: {  }
   field_gemini_uri:
-    weight: 100
+    weight: 15
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_identifier:
     type: string
     weight: 1
@@ -163,7 +160,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  openseadragon_media_evas_entity_view_1:
+  openseadragon_media_evas_service_file:
     weight: 3
     region: content
     settings: {  }
@@ -178,8 +175,8 @@ hidden:
   field_model: true
   field_pid: true
   field_weight: true
+  openseadragon_media_evas_entity_view_1: true
   openseadragon_media_evas_entity_view_2: true
-  openseadragon_media_evas_service_file: true
   pdfjs_media_evas_entity_view_1: true
   pdfjs_media_evas_entity_view_2: true
   pdfjs_media_evas_service_file: true

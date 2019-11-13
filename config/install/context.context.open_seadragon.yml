@@ -18,7 +18,8 @@ conditions:
         target_id: '35'
     context_mapping:
       node: '@node.node_route_context:node'
-    uri: 'http://openseadragon.github.io'
+    uri: 'http://id.loc.gov/ontologies/bibframe/part,http://purl.org/coar/resource_type/c_c513'
+    logic: or
 reactions:
   view_mode_alter:
     id: view_mode_alter

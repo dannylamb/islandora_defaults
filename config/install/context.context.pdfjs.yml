@@ -10,10 +10,11 @@ description: 'Displays file using the PDFjs viewer'
 requireAllConditions: false
 disabled: false
 conditions:
-  node_has_term:
-    id: node_has_term
+  media_has_mimetype:
+    id: media_has_mimetype
+    mimetypes: application/pdf
     negate: 0
-    uri: 'http://mozilla.github.io/pdf.js'
+    uuid: 3a2b11c5-bdbd-4741-9794-48f5ae3acbf7
     context_mapping:
       node: '@node.node_route_context:node'
 reactions:
